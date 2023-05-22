@@ -19,6 +19,6 @@ jobs:
 
   docsgen:
     needs: act
-    uses: arcalot/arcaflow-docsgen/.github/workflows/reusable_workflow.yaml@main
+    uses: jdowni000/arcaflow-docsgen/.github/workflows/reusable_workflow.yaml@test
     with:
       plugin_path: "kubeconfig_plugin.py"
